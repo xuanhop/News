@@ -7,8 +7,8 @@
  */
 class HomeController extends AppController{
 
-
     public function index(){
+
     }
 
     public function register(){
@@ -16,9 +16,8 @@ class HomeController extends AppController{
     }
 
 
-        public function login(){
+    public function login(){
 
-        }
-
+    }
+    
 }
-?>
