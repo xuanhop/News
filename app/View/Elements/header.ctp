@@ -11,12 +11,12 @@
                         <li><a href="#">Giới thiệu</a></li>
                         <li><a href="pages/contact.html">Liên hệ</a></li>
                     </ul>
+
                 </div>
                 <div class="header_top_right">
                     <p><a style="color: white" data-toggle="modal" data-target="#myModal" >Đăng nhập</a>
                         <div class="modal fade" id="myModal" role="dialog">
                             <div class="modal-dialog">
-
                                 <!-- Modal content-->
                                 <div class="modal-content">
                                     <div class="modal-header">
@@ -56,7 +56,8 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Tìm kiếm ..."/>
+                                <span style="color: white">Tìm kiếm</span>
+                                <span><input type="text" class="form-control" placeholder="Search for..."></span>
                                 <span class="input-group-btn">
                                     <button class="btn btn-default" type="button">
                                         <span class="glyphicon glyphicon-search"></span>

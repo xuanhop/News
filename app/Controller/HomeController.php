@@ -15,9 +15,8 @@ class HomeController extends AppController{
         $this->layout=null;
     }
 
-
     public function login(){
 
     }
-    
+
 }

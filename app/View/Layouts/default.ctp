@@ -7,21 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <?php echo $this->fetch('meta'); ?>
-
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="css/animate.css">
-    <link rel="stylesheet" type="text/css" href="css/font.css">
-    <link rel="stylesheet" type="text/css" href="css/li-scroller.css">
-    <link rel="stylesheet" type="text/css" href="css/slick.css">
-    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css">
-    <link rel="stylesheet" type="text/css" href="css/theme.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <?php echo $this->Html->css(array('bootstrap.min.css', 'font-awesome.min.css','animate.css',
+        'font.css','li-scroller.css','slick.css','jquery.fancybox.css','theme.css','style.css' )) ?>
     <!--[if lt IE 9]>
-    <script src="js/html5shiv.min.js"></script>
-    <script src="js/respond.min.js"></script>
-    <![endif]-->
 
+    <?php echo $this->Html->script(array('html5shiv.min.js','respond.min.js')) ?>
+    <!--[endif]-->
     <?php echo $this->fetch('css'); ?>
 
 </head>
@@ -46,14 +37,9 @@
 
 </div>
 
-<script src="js/jquery.min.js"></script>
-<script src="js/wow.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/slick.min.js"></script>
-<script src="js/jquery.li-scroller.1.0.js"></script>
-<script src="js/jquery.newsTicker.min.js"></script>
-<script src="js/jquery.fancybox.pack.js"></script>
-<script src="js/custom.js"></script>
+<?php echo $this->Html->script(array('jquery.min.js','wow.min.js','bootstrap.min.js','slick.min.js','jquery.li-scroller.1.0.js',
+'jquery.newsTicker.min.js','jquery.fancybox.pack.js','custom.js')) ?>
+
 
 <?php echo $this->fetch('script'); ?>
 
