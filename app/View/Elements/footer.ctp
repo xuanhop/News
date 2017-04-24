@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-4">
                 <div class="footer_widget wow fadeInLeftBig">
-                    <h2>Flickr Images</h2>
+                    <h2></h2>
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4">
@@ -23,17 +23,16 @@
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4">
                 <div class="footer_widget wow fadeInRightBig">
-                    <h2>Contact</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <h2></h2>
+                    <p>Trang tin tức này đã được mua bản quyền, đề nghị các tiền bối không sao chép dưới mọi hình thức</p>
                     <address>
-                        Perfect News,1238 S . 123 St.Suite 25 Town City 3333,USA Phone: 123-326-789 Fax: 123-546-567
-                    </address>
+                        Trung tâm Hackademics Hà Nội, Tầng 6, toà nhà 23 Tô Vĩnh Diện, Thanh Xuân, Hà Nội.</address>
                 </div>
             </div>
         </div>
     </div>
     <div class="footer_bottom">
-        <p class="copyright">Copyright &copy; 2045 <a href="index.html">NewsFeed</a></p>
-        <p class="developer">Developed By Wpfreeware</p>
+        <p class="copyright">Copyright &copy; 2017 <a href="index.html">NewsFeed</a></p>
+        <p class="developer" style="color: white" >BossBaby</p>
     </div>
 </footer>
