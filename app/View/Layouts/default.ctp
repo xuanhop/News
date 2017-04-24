@@ -37,7 +37,8 @@
 
 </div>
 
-<?php echo $this->Html->script(array('jquery.min.js','wow.min.js','bootstrap.min.js','slick.min.js','jquery.li-scroller.1.0.js',
+<?php echo $this->Html->script(array('jquery.min.js','wow.min.js','bootstrap.min.js','slick.min.js',
+'jquery.li-scroller.1.0.js',
 'jquery.newsTicker.min.js','jquery.fancybox.pack.js','custom.js')) ?>
 
 

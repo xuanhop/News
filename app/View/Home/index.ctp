@@ -6,15 +6,15 @@
                 <!--Bắt đầu tin mới-->
                 <span>Tin tức mới nhất</span>
                 <ul id="ticker01" class="news_sticker">
-                    <li><a href="#"><img src="../img/news_thumbnail3.jpg" alt="">My First News Item</a></li>
-                    <li><a href="#"><img src="../img/news_thumbnail3.jpg" alt="">My Second News Item</a></li>
-                    <li><a href="#"><img src="../img/news_thumbnail3.jpg" alt="">My Third News Item</a></li>
-                    <li><a href="#"><img src="../img/news_thumbnail3.jpg" alt="">My Four News Item</a></li>
-                    <li><a href="#"><img src="../img/news_thumbnail3.jpg" alt="">My Five News Item</a></li>
-                    <li><a href="#"><img src="../img/news_thumbnail3.jpg" alt="">My Six News Item</a></li>
-                    <li><a href="#"><img src="../img/news_thumbnail3.jpg" alt="">My Seven News Item</a></li>
-                    <li><a href="#"><img src="../img/news_thumbnail3.jpg" alt="">My Eight News Item</a></li>
-                    <li><a href="#"><img src="../img/news_thumbnail2.jpg" alt="">My Nine News Item</a></li>
+                    <li><a href="#"><img src="img/news_thumbnail3.jpg" alt="">My first News Item</a></li>
+                    <li><a href="#"><img src="img/news_thumbnail3.jpg" alt="">My Second News Item</a></li>
+                    <li><a href="#"><img src="img/news_thumbnail3.jpg" alt="">My Third News Item</a></li>
+                    <li><a href="#"><img src="img/news_thumbnail3.jpg" alt="">My Four News Item</a></li>
+                    <li><a href="#"><img src="img/news_thumbnail3.jpg" alt="">My Five News Item</a></li>
+                    <li><a href="#"><img src="img/news_thumbnail3.jpg" alt="">My Six News Item</a></li>
+                    <li><a href="#"><img src="img/news_thumbnail3.jpg" alt="">My Seven News Item</a></li>
+                    <li><a href="#"><img src="img/news_thumbnail3.jpg" alt="">My Eight News Item</a></li>
+                    <li><a href="#"><img src="img/news_thumbnail2.jpg" alt="">My Nine News Item</a></li>
                 </ul>
                 <div class="social_area">
                     <!--Các link liên kết đến các trang mạng xã hội -->
@@ -37,7 +37,7 @@
     <div class="row">
         <div class="col-lg-8 col-md-8 col-sm-8">
             <div class="slick_slider">
-                <div class="single_iteam"> <a href="pages/single_page.html"> <img src="../img/slider_img4.jpg" alt=""></a>
+                <div class="single_iteam"> <a href="pages/single_page.html"> <img src="img/slider_img4.jpg" alt=""></a>
                     <div class="slider_article">
                         <h2><a class="slider_tittle" href="pages/single_page.html">Khu vực để ảnh slide show</a>
                         </h2>
@@ -46,19 +46,19 @@
                         </p>
                     </div>
                 </div>
-                <div class="single_iteam"> <a href="pages/single_page.html"> <img src="../img/slider_img2.jpg" alt=""></a>
+                <div class="single_iteam"> <a href="pages/single_page.html"> <img src="img/slider_img2.jpg" alt=""></a>
                     <div class="slider_article">
                         <h2><a class="slider_tittle" href="pages/single_page.html">Khu vực để ảnh slide show(tên ảnh)</a></h2>
                         <p>Tiêu đề ảnh</p>
                     </div>
                 </div>
-                <div class="single_iteam"> <a href="pages/single_page.html"> <img src="../img/slider_img3.jpg" alt=""></a>
+                <div class="single_iteam"> <a href="pages/single_page.html"> <img src="img/slider_img3.jpg" alt=""></a>
                     <div class="slider_article">
                         <h2><a class="slider_tittle" href="pages/single_page.html">Khu vực để ảnh slide show(tên ảnh)</a></h2>
                         <p> Tiêu đề ảnh</p>
                     </div>
                 </div>
-                <div class="single_iteam"> <a href="pages/single_page.html"> <img src="../img/slider_img1.jpg" alt=""></a>
+                <div class="single_iteam"> <a href="pages/single_page.html"> <img src="img/slider_img1.jpg" alt=""></a>
                     <div class="slider_article">
                         <h2><a class="slider_tittle" href="pages/single_page.html"></a></h2>
                         <p>Tiêu đề ảnh</p>
