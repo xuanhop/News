@@ -11,8 +11,8 @@
 
                 </div>
                 <div class="header_top_right">
-                    <p><a style="color: white" href="">Đăng nhập</a></p>
-                    <p><a style="color: white" href="<?php echo $this->Html-url(['controller'=>'home','action'=>'register']); ?>">Đăng ký</a></p>
+                    <p><a style="color: white" href="<?php echo $this->Html->url(['controller'=>'home', 'action'=>'login']) ?>">Đăng nhập</a></p>
+                    <p><a style="color: white" href="<?php echo $this->Html->url(['controller'=>'home','action'=>'register']); ?>">Đăng ký</a></p>
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="input-group">

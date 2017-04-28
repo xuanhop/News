@@ -10,7 +10,7 @@ class HomeController extends AppController{
     }
 
     public function register(){
-        $this->set('title_for_layout','Đăng kí');
+        $this->layout=null;
     }
     public function login(){
 
