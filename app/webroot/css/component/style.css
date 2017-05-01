@@ -1,0 +1,20 @@
+body{
+    background-color: #eee;
+}
+.modal-dialog{
+	width: 330px;
+	height: 330px;
+}
+
+.form-signin {
+    margin: 0 auto;
+    max-width: 330px;
+    padding: 15px;
+}
+
+.form-signin .form-control {
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+}
+
