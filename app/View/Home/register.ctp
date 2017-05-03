@@ -104,10 +104,9 @@
     </fieldset>
 </form>
 <!-- Hết form-->
-<?php echo $this->Html->script(array('bootstrap.min.js','bootstrap-datepicker.min.js')) ?>
+<?php echo $this->Html->script(array('bootstrap.min.js','bootstrap-datepicker.min.js'));?>
 <script>
     $('#DOB').datepicker({
-       endDate:"+9"
     });
 </script>
 </body>

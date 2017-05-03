@@ -14,7 +14,7 @@ class HomeController extends AppController{
 
     public function register(){
         $this->layout=null;
-        $this->is->post();
+
     }
 
     public function validate(){
