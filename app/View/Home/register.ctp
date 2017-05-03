@@ -3,44 +3,50 @@
 <head>
 <title>Đăng ký</title>
 <meta charset="utf-8">
-<?php echo $this->Html->css(array('bootstrap.min.css',)); ?>
+<?php echo $this->Html->css(array('bootstrap.min.css','bootstrap-datepicker.min.css')); ?>
 
 </head>
 <body>
-<form class="form-horizontal" style="background-color: #d1ffff ">
+<form class="form-horizontal" style="background-color: " method="post" action="#">
     <fieldset>
 
         <!-- Form Name -->
-        <legend style="text-align: center; font-weight: bold; text-transform: uppercase;">Form Name</legend>
+        <legend style="text-align: center; font-weight: bold; text-transform: uppercase;">Đăng ký</legend>
 
-        <!-- Text input-->
+        <!-- Tài khoản-->
         <div class="form-group">
-            <label class="col-md-4 control-label" for="fn">First name</label>
+            <label class="col-md-4 control-label" for="fn">Tên tài khoản: </label>
             <div class="col-md-4">
-                <input id="fn" name="fn" type="text" placeholder="first name" class="form-control input-md" required="">
+                <input id="fn" name="fn" type="text" placeholder="" class="form-control input-md" required="">
+
+            </div>
+        </div>
+        <!--Nhập mật khẩu-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="fn">Mật khẩu:</label>
+            <div class="col-md-4">
+                <input type="password" placeholder="Password" id="password" class="form-control input-md" name="password"/>
+
+            </div>
+        </div>
+        <!--Xác nhận mật khẩu-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="fn">Xác nhận mật khẩu:</label>
+            <div class="col-md-4">
+                <input type="password" placeholder="Password" id="password" class="form-control input-md" name="password"/>
+
+            </div>
+        </div>
+        <!--Họ và tên-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="fn">Họ và tên: </label>
+            <div class="col-md-4">
+                <input id="fn" name="fn" type="text" placeholder="Họ tên" class="form-control input-md" required="">
 
             </div>
         </div>
 
-        <!-- Text input-->
-        <div class="form-group">
-            <label class="col-md-4 control-label" for="ln">Last name</label>
-            <div class="col-md-4">
-                <input id="ln" name="ln" type="text" placeholder="last name" class="form-control input-md" required="">
-
-            </div>
-        </div>
-
-        <!-- Text input-->
-        <div class="form-group">
-            <label class="col-md-4 control-label" for="cmpny">Company</label>
-            <div class="col-md-4">
-                <input id="cmpny" name="cmpny" type="text" placeholder="company" class="form-control input-md" required="">
-
-            </div>
-        </div>
-
-        <!-- Text input-->
+        <!-- Email-->
         <div class="form-group">
             <label class="col-md-4 control-label" for="email">Email</label>
             <div class="col-md-4">
@@ -49,129 +55,60 @@
             </div>
         </div>
 
-        <!-- Text input-->
+        <!-- Địa chỉ-->
         <div class="form-group">
-            <label class="col-md-4 control-label" for="add1">Address 1</label>
+            <label class="col-md-4 control-label" for="add1">Địa chỉ: </label>
             <div class="col-md-4">
                 <input id="add1" name="add1" type="text" placeholder="" class="form-control input-md" required="">
 
             </div>
         </div>
 
-        <!-- Text input-->
+        <!-- Số điện thoại -->
         <div class="form-group">
-            <label class="col-md-4 control-label" for="add2">Address 2</label>
+            <label class="col-md-4 control-label" for="phone">Số điện thoại: </label>
             <div class="col-md-4">
-                <input id="add2" name="add2" type="text" placeholder="" class="form-control input-md">
+                <input id="phone" name="phone" type="text" placeholder="Số điện thoại" class="form-control input-md" required="">
 
             </div>
         </div>
-
-        <!-- Text input-->
         <div class="form-group">
-            <label class="col-md-4 control-label" for="city">City</label>
+            <label class="col-md-4 control-label" for="Ngày sinh">Ngày sinh: </label>
             <div class="col-md-4">
-                <input id="city" name="city" type="text" placeholder="city" class="form-control input-md" required="">
+                <input id="DOB" name="#" type="text" placeholder="Ngày sinh" class="form-control input-md" required="">
 
             </div>
         </div>
-
-        <!-- Text input-->
+        <!-- Giới tính -->
         <div class="form-group">
-            <label class="col-md-4 control-label" for="zip">Zip Code</label>
+            <label class="col-md-4 control-label" for="#">Giới tính: </label>
             <div class="col-md-4">
-                <input id="zip" name="zip" type="text" placeholder="Zip Code" class="form-control input-md" required="">
-
-            </div>
-        </div>
-
-        <!-- Text input-->
-        <div class="form-group">
-            <label class="col-md-4 control-label" for="ctry">Country</label>
-            <div class="col-md-4">
-                <input id="ctry" name="ctry" type="text" placeholder="Country" class="form-control input-md" required="">
-
-            </div>
-        </div>
-
-        <!-- Text input-->
-        <div class="form-group">
-            <label class="col-md-4 control-label" for="phone">Text InputPhone</label>
-            <div class="col-md-4">
-                <input id="phone" name="phone" type="text" placeholder="Phone#" class="form-control input-md" required="">
-
-            </div>
-        </div>
-
-        <!-- Multiple Radios (inline) -->
-        <div class="form-group">
-            <label class="col-md-4 control-label" for="Training">Would you like to attend our Networking Reception on September 3, 2015?</label>
-            <div class="col-md-4">
-                <label class="radio-inline" for="Training-0">
-                    <input type="radio" name="Training" id="Training-0" value="yes" checked="checked">
-                    Yes
+                <label class="radio-inline" for="Gender">
+                    <input type="radio" name="Gender" id="Gender-0" value="0" checked="checked">
+                    Nam
                 </label>
-                <label class="radio-inline" for="Training-1">
-                    <input type="radio" name="Training" id="Training-1" value="no">
-                    No
+                <label class="radio-inline" for="Gender-1">
+                    <input type="radio" name="Gender" id="Gender-1" value="1">
+                    Nữ
                 </label>
             </div>
         </div>
-
-        <!-- Multiple Radios (inline) -->
-        <div class="form-group">
-            <label class="col-md-4 control-label" for="Networking_Reception">Would you like to attend our Technical Product Update Session on September 4, 2015?</label>
-            <div class="col-md-4">
-                <label class="radio-inline" for="Networking_Reception-0">
-                    <input type="radio" name="Networking_Reception" id="Networking_Reception-0" value="meet_yes" checked="checked">
-                    Yes
-                </label>
-                <label class="radio-inline" for="Networking_Reception-1">
-                    <input type="radio" name="Networking_Reception" id="Networking_Reception-1" value="meet_no">
-                    No
-                </label>
-            </div>
-        </div>
-
-        <!-- Select Basic -->
-        <div class="form-group">
-            <label class="col-md-4 control-label" for="selectbasic">Select Basic</label>
-            <div class="col-md-4">
-                <select id="selectbasic" name="selectbasic" class="form-control input-md">
-                    <option>Option one</option>
-                    <option>Option two</option>
-                </select>
-            </div>
-        </div>
-
-
-        <!-- Multiple Radios (inline) -->
-        <div class="form-group">
-            <label class="col-md-4 control-label" for="Dinner">Would you like to attend our Networking Dinner on September 4, 2015?</label>
-            <div class="col-md-4">
-                <label class="radio-inline" for="Dinner-0">
-                    <input type="radio" name="Dinner" id="Dinner-0" value="dinner_yes" checked="checked">
-                    Yes
-                </label>
-                <label class="radio-inline" for="Dinner-1">
-                    <input type="radio" name="Dinner" id="Dinner-1" value="dinner_no">
-                    No
-                </label>
-            </div>
-        </div>
-
-        <!-- Button -->
+        <!-- Button submit -->
         <div class="form-group">
             <label class="col-md-4 control-label" for="submit"></label>
             <div class="col-md-4">
-                <button id="submit" name="submit" class="btn btn-primary">SUBMIT</button>
+                <button id="submit" name="submit" class="btn btn-primary">Đăng ký</button>
             </div>
         </div>
 
     </fieldset>
 </form>
-<?php echo $this->Html->script(array('jquery.min.js','wow.min.js','bootstrap.min.js','slick.min.js',
-    'jquery.li-scroller.1.0.js',
-    'jquery.newsTicker.min.js','jquery.fancybox.pack.js','custom.js')) ?>
+<!-- Hết form-->
+<?php echo $this->Html->script(array('bootstrap.min.js','bootstrap-datepicker.min.js')) ?>
+<script>
+    $('#DOB').datepicker({
+       endDate:"+9"
+    });
+</script>
 </body>
 </html>

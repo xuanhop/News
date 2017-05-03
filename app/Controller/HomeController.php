@@ -6,12 +6,21 @@
  * Time: 10:59 PM
  */
 class HomeController extends AppController{
+    public function beforeFilter(){
+
+    }
     public function index(){
     }
 
     public function register(){
         $this->layout=null;
+        $this->is->post();
     }
+
+    public function validate(){
+
+    }
+
     public function login(){
 
     }
