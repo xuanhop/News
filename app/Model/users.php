@@ -1,6 +1,6 @@
 <?php
-App:: uses('users', 'model');
-    class users extends AppModel{
-
+App:: uses('user', 'model');
+    class user extends AppModel{
+        var $name='User';
     }
 ?>
