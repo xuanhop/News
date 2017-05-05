@@ -14,6 +14,7 @@ class HomeController extends AppController{
     }
 
     public function register(){
+
         $this->layout=null;
         if(!empty($this->data)){
             if ($this->data['User']['password'] == $this->Auth->password($this->data['User'],['password_confirm'])){
@@ -27,6 +28,8 @@ class HomeController extends AppController{
     }
     public function logout(){
         $this->redirect($this->Auth->logout());
+        $this->layout = null;
+
     }
     public function login(){
 
