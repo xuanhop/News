@@ -1,24 +1,24 @@
+
+
 <?php echo $this->Html->script('jquery-2.2.4.min.js');?>
 <?php echo $this->Html->script('bootstrap.min.css') ?>
+
 <header id="header">
     <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12">
             <div class="header_top">
                 <div class="header_top_left">
                     <ul class="top_nav">
+
                         <li><a href="<?php echo $this->Html->url(array('controller'=>'home','action'=>'index'))?>">Trang chủ</a></li>
+
                         <li><a href="#">Giới thiệu</a></li>
                         <li><a href="pages/contact.html">Liên hệ</a></li>
                     </ul>
 
                 </div>
                 <div class="header_top_right">
-                    <p><a style="color: white" href="<?php echo $this->Html->url(['controller'=>'home', 'action'=>'login']) ?>">Đăng nhập</a></p>
-                    <p><a style="color: white" href="<?php echo $this->Html->url(['controller'=>'home','action'=>'register']); ?>">Đăng ký</a></p>
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Tìm kiếm ..."/>
+
                     <p><a style="color: white" data-toggle="modal" data-target="#myModal" >Đăng nhập</a>
                         <div class="modal fade" id="myModal" role="dialog">
                             <div class="modal-dialog">
@@ -63,6 +63,7 @@
                                 <span style="color: white"></span>
                             <div class="input-group">
                                 <span><input type="text" class="form-control" placeholder="Tìm kiếm..."></span>
+
                                 <span class="input-group-btn">
                                     <button class="btn btn-default" type="button">
                                         <span class="glyphicon glyphicon-search"></span>
@@ -76,7 +77,9 @@
         </div>
         <div class="col-lg-12 col-md-12 col-sm-12">
             <div class="header_bottom">
+
                 <div class="logo_area"><a href="<?php echo $this->Html->url(['controller'=>'home','action'=>'index']) ?>" class="logo"><img src="img/logo.jpg" alt=""></a></div>
+
                 <div class="add_banner"><a href="#"><img src="#" alt=""></a></div>
             </div>
         </div>
