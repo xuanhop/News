@@ -1,0 +1,13 @@
+body {  
+
+background-color: rgba(100, 43, 119, 0.92);
+}
+.container{
+	padding-top: 6%;
+}
+.form-control { 
+margin-bottom: 10px;
+}
+.login-screen-bg {  
+background-color: #EFEFEF;
+}

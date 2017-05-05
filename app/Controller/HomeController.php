@@ -1,5 +1,7 @@
 <?php
+
 App::uses('AppController','Controller');
+
 /**
  * Created by PhpStorm.
  * User: Xuan_Hop
@@ -40,3 +42,4 @@ class HomeController extends AppController{
     }
 }
 ?>
+
