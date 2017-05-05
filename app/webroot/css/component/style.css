@@ -1,20 +1,13 @@
-body{
-    background-color: #eee;
-}
-.modal-dialog{
-	width: 330px;
-	height: 330px;
-}
+body {  
 
-.form-signin {
-    margin: 0 auto;
-    max-width: 330px;
-    padding: 15px;
+background-color: rgba(100, 43, 119, 0.92);
 }
-
-.form-signin .form-control {
-    font-size: 16px;
-    height: auto;
-    padding: 10px;
+.container{
+	padding-top: 6%;
 }
-
+.form-control { 
+margin-bottom: 10px;
+}
+.login-screen-bg {  
+background-color: #EFEFEF;
+}

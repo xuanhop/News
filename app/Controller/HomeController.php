@@ -12,7 +12,7 @@ class HomeController extends AppController{
     }
 
     public function register(){
-        $this->layout=null;
+        $this->layout = null;
     }
 
     public function login(){

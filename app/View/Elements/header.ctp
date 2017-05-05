@@ -1,6 +1,7 @@
 
-<?php echo $this->html->css('component/fonts/style') ?>
+
 <?php echo $this->Html->script('jquery-2.2.4.min.js');?>
+<?php echo $this->Html->script('bootstrap.min.css') ?>
 <header id="header">
     <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12">
@@ -55,9 +56,9 @@
                     <p><a style="color: white" href="<?php echo $this->Html->url(['controller'=>'home','action'=>'register']); ?>">Đăng ký</a></p>
                     <div class="row">
                         <div class="col-lg-6">
+                                <span style="color: white"></span>
                             <div class="input-group">
-                                <span style="color: white">Tìm kiếm</span>
-                                <span><input type="text" class="form-control" placeholder="Search for..."></span>
+                                <span><input type="text" class="form-control" placeholder="Tìm kiếm..."></span>
                                 <span class="input-group-btn">
                                     <button class="btn btn-default" type="button">
                                         <span class="glyphicon glyphicon-search"></span>
@@ -71,7 +72,7 @@
         </div>
         <div class="col-lg-12 col-md-12 col-sm-12">
             <div class="header_bottom">
-                <div class="logo_area"><a href="index.html" class="logo"><img src="img/logo.jpg" alt=""></a></div>
+                <div class="logo_area"><a href="<?php echo $this->Html->url(['controller'=>'home','action'=>'index']) ?>" class="logo"><img src="img/logo.jpg" alt=""></a></div>
                 <div class="add_banner"><a href="#"><img src="#" alt=""></a></div>
             </div>
         </div>
