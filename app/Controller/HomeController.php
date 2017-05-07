@@ -18,18 +18,26 @@ class HomeController extends AppController{
 
     public function register(){
         $this->layout=null;
-        if($this->request->is('post')){
+        if($this->request->is('post')) {
             $userData = array(
-                'username' => $this->data['userprofile']['username'],
-                'password' => $this->data['userprofile']['password']
+                'username' => $this->data['UsersProfile']['username'],
+                'password' => $this->data['UsersProfile']['password']
             );
-            if($this->userprofile->save($userData)){
+            if ($this->userprofile->save($userData)) {
                 $profileData = array(
-                  '' => $this->Data['userprofile']['ho_ten']
+                    'ho_ten' => $this->data['UsersProfile']['name'],
+                    'email' => $this->data['UsersProfile']['email'],
+                    'address' => $this->data['UsersProfile']['Address'],
+                    'phone' => $this->data['UsersProfile']['phone'],
+                    'ngay_sinh' => $this->data['UsersProfile']['DOB'],
+                    'gioi_tinh' => $this->data['UsersProfile']['Gender'],
                 );
             }
 
         }
+
+    }
+    public function beforeSave(){
 
     }
 

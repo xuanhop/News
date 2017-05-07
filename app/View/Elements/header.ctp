@@ -1,7 +1,7 @@
 
 
 <?php echo $this->Html->script('jquery-2.2.4.min.js');?>
-<?php echo $this->Html->script('bootstrap.min.css') ?>
+<?php echo $this->Html->css('bootstrap.min.css') ?>
 
 <header id="header">
     <div class="row">

@@ -17,7 +17,7 @@
         <div class="form-group">
             <label class="col-md-4 control-label" for="fn">Tên tài khoản: </label>
             <div class="col-md-4">
-                <input id="fn" name="fn" type="text" placeholder="" class="form-control input-md" required="">
+                <input id="fn" name="data[UsersProfile][username]" type="text" placeholder="" class="form-control input-md" required="">
 
             </div>
         </div>
@@ -25,7 +25,7 @@
         <div class="form-group">
             <label class="col-md-4 control-label" for="fn">Mật khẩu:</label>
             <div class="col-md-4">
-                <input type="password" placeholder="Password" id="password" class="form-control input-md" name="password"/>
+                <input type="password" placeholder="Password" id="password" class="form-control input-md" name="data[UsersProfile][password]"/>
 
             </div>
         </div>
@@ -41,7 +41,7 @@
         <div class="form-group">
             <label class="col-md-4 control-label" for="fn">Họ và tên: </label>
             <div class="col-md-4">
-                <input id="fn" name="fn" type="text" placeholder="Họ tên" class="form-control input-md" required="">
+                <input id="fn" name="data[UsersProfile][name]" type="text" placeholder="Họ tên" class="form-control input-md" required="">
 
             </div>
         </div>
@@ -50,7 +50,7 @@
         <div class="form-group">
             <label class="col-md-4 control-label" for="email">Email</label>
             <div class="col-md-4">
-                <input id="email" name="email" type="text" placeholder="email" class="form-control input-md" required="">
+                <input id="email" name="data[UsersProfile][email]" type="text" placeholder="email" class="form-control input-md" required="">
 
             </div>
         </div>
@@ -59,7 +59,7 @@
         <div class="form-group">
             <label class="col-md-4 control-label" for="add1">Địa chỉ: </label>
             <div class="col-md-4">
-                <input id="add1" name="add1" type="text" placeholder="" class="form-control input-md" required="">
+                <input id="add1" name="data[UsersProfile][Address]" type="text" placeholder="" class="form-control input-md" required="">
 
             </div>
         </div>
@@ -68,14 +68,14 @@
         <div class="form-group">
             <label class="col-md-4 control-label" for="phone">Số điện thoại: </label>
             <div class="col-md-4">
-                <input id="phone" name="phone" type="text" placeholder="Số điện thoại" class="form-control input-md" required="">
+                <input id="phone" name="data[UsersProfile][phone] " type="text" placeholder="Số điện thoại" class="form-control input-md" required="">
 
             </div>
         </div>
         <div class="form-group">
             <label class="col-md-4 control-label" for="Ngày sinh">Ngày sinh: </label>
             <div class="col-md-4">
-                <input id="DOB" name="#" type="text" placeholder="Ngày sinh" class="form-control input-md" required="">
+                <input id="DOB" name="data[UsersProfile][DOB]" type="text" placeholder="Ngày sinh" class="form-control input-md" required="">
 
             </div>
         </div>
@@ -84,11 +84,11 @@
             <label class="col-md-4 control-label" for="#">Giới tính: </label>
             <div class="col-md-4">
                 <label class="radio-inline" for="Gender">
-                    <input type="radio" name="Gender" id="Gender-0" value="0" checked="checked">
+                    <input type="radio" name="data[UsersProfile][Gender]" id="Gender-0" value="0" checked="checked">
                     Nam
                 </label>
                 <label class="radio-inline" for="Gender-1">
-                    <input type="radio" name="Gender" id="Gender-1" value="1">
+                    <input type="radio" name="data[UsersProfile][Gender]" id="Gender-1" value="1">
                     Nữ
                 </label>
             </div>
@@ -104,10 +104,10 @@
     </fieldset>
 </form>
 <!-- Hết form-->
+<?php echo $this->Html->script('jquery.min.js');?>
 <?php echo $this->Html->script(array('bootstrap.min.js','bootstrap-datepicker.min.js'));?>
 <script>
-    $('#DOB').datepicker({
-    });
+    $('#DOB').datepicker({});
 </script>
 </body>
 </html>
