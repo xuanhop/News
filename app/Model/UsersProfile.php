@@ -5,8 +5,14 @@
         public $primaryKey = 'id';
 
         public $validate = array(
-
+            ''
         );
+
+        public $validationErrors = array();
+
+
+
+
     }
 
 

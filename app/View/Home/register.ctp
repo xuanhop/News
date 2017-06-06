@@ -17,7 +17,7 @@
         <div class="form-group">
             <label class="col-md-4 control-label" for="fn">Tên tài khoản: </label>
             <div class="col-md-4">
-                <input id="fn" name="data[UsersProfile][username]" type="text" placeholder="" class="form-control input-md" required="">
+                <input id="fn" name="data[Users][username]" type="text" placeholder="Tên tài khoản" class="form-control input-md" required="">
 
             </div>
         </div>
@@ -25,7 +25,7 @@
         <div class="form-group">
             <label class="col-md-4 control-label" for="fn">Mật khẩu:</label>
             <div class="col-md-4">
-                <input type="password" placeholder="Password" id="password" class="form-control input-md" name="data[UsersProfile][password]"/>
+                <input type="password" placeholder="Password" id="password" class="form-control input-md" name="data[Users][password]"/>
 
             </div>
         </div>
@@ -41,7 +41,7 @@
         <div class="form-group">
             <label class="col-md-4 control-label" for="fn">Họ và tên: </label>
             <div class="col-md-4">
-                <input id="fn" name="data[UsersProfile][name]" type="text" placeholder="Họ tên" class="form-control input-md" required="">
+                <input id="fn" name="data[UsersProfile][name]" type="text" placeholder="Họ tên" class="form-control input-md" required="Họ và tên">
 
             </div>
         </div>
@@ -50,7 +50,7 @@
         <div class="form-group">
             <label class="col-md-4 control-label" for="email">Email</label>
             <div class="col-md-4">
-                <input id="email" name="data[UsersProfile][email]" type="text" placeholder="email" class="form-control input-md" required="">
+                <input id="email" name="data[UsersProfile][email]" type="text" placeholder="email" class="form-control input-md" required="Email">
 
             </div>
         </div>

@@ -11,7 +11,8 @@ App::uses('AppController','Controller');
  */
 class HomeController extends AppController{
     public function beforeFilter(){
-
+        parent::beforeFilter();
+        $this->Auth->allow('add');
     }
     public function index(){
     }
@@ -20,8 +21,8 @@ class HomeController extends AppController{
         $this->layout=null;
         if($this->request->is('post')) {
             $userData = array(
-                'username' => $this->data['UsersProfile']['username'],
-                'password' => $this->data['UsersProfile']['password']
+                'username' => $this->data['Users']['username'],
+                'password' => $this->data['Users']['password']
             );
             if ($this->userprofile->save($userData)) {
                 $profileData = array(
@@ -35,8 +36,9 @@ class HomeController extends AppController{
             }
 
         }
-
     }
+
+
     public function beforeSave(){
 
     }
